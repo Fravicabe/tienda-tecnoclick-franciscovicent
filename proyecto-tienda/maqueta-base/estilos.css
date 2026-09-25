@@ -37,11 +37,11 @@ header {
 
 .producto {
     flex: 1 1 180px;
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    background: #1a1a1a73;
+    border: 5px solid #e0e0e0;
+    border-radius: 8px;
     padding: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .precio {
@@ -50,8 +50,10 @@ header {
 
 .carrito {
     flex: 1;
-    background: #e8e8e8;
+    background: #1a1a1a73;
+    border: 5px solid #e0e0e0;
     border-radius: 8px;
     padding: 12px;
     min-height: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
