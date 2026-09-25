@@ -42,7 +42,16 @@ header {
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background 0.2s ease;
+
 }
+
+.producto:hover {
+    background: #1a1a1a4d;
+    transform: scale(1.01);
+}
+
+
 
 .stock-bajo {
     border: 5px solid #b31e1e;
@@ -60,4 +69,10 @@ header {
     padding: 12px;
     min-height: 200px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: background 0.2s ease;
+}
+
+.carrito:hover {
+    background: #1a1a1a4d;
+    transform: scale(1.01);
 }
